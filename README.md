@@ -15,18 +15,19 @@ Trabajo Práctico Especial sobre el conjunto de datos Global Food & Nutrition Da
 Para replicar el entorno de trabajo:
 
 1. Clonar el repositorio:
-   ```bash
+   bash
    git clone https://github.com/juancruzhiguera/tpe-fcd
-   cd tpe-fcd-2026``
+   cd tpe-fcd 
 
 2. Crear y activar el entorno virtual:
-   ```bash
+   bash
    python3 -m venv venv-tpe
-   source venv-tpe/bin/activate ```
+   source venv-tpe/bin/activate
 
 3. Instalar las dependencias:
-   ```bash
-   pip install -r requirements.txt```
+   bash
+   pip install -r requirements.txt
+   python -m ipykernel install --user --name=venv-tpe --display-name "Python (venv-tpe)"
 
 4. Abrir el proyecto en VS Code y seleccionar el kernel de Python del entorno  venv-tpe.
 
