@@ -1,33 +1,51 @@
 # TPE - Fundamentos de la Ciencia de Datos - Grupo 14
 
-# Integrantes
+**Integrantes:** Juan Cruz Higuera, Jeremías Aguilar, Santiago Silva Salvatierra  
+**Dataset:** Global Food & Nutrition Database (`data/dataset.csv`)  
+**Notebook principal:** [`entrega-tpe.ipynb`](entrega-tpe.ipynb)
 
-   Juan Cruz Higuera
-   Jeremias Aguilar
-   Santiago Silva Salavatierra
+---
 
-# Descripción
+## Instalación y Configuración
 
-Trabajo Práctico Especial sobre el conjunto de datos Global Food & Nutrition Database
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/juancruzhiguera/tpe-fcd.git
+cd tpe-fcd
+```
 
-# Requisitos y Configuración del Entorno
+### 2. Crear y activar el entorno virtual
 
-Para replicar el entorno de trabajo:
+- **Linux / macOS:**
+  ```bash
+  python3 -m venv venv-tpe
+  source venv-tpe/bin/activate
+  ```
+- **Windows (PowerShell / CMD):**
+  ```powershell
+  python -m venv venv-tpe
+  .\venv-tpe\Scripts\activate
+  ```
 
-1. Clonar el repositorio:
-   bash
-   git clone https://github.com/juancruzhiguera/tpe-fcd
-   cd tpe-fcd 
+### 3. Instalar dependencias y registrar el kernel
+Con el entorno virtual activado:
+```bash
+pip install -r requirements.txt
+python -m ipykernel install --user --name=venv-tpe --display-name "Python (venv-tpe)"
+```
 
-2. Crear y activar el entorno virtual:
-   bash
-   python3 -m venv venv-tpe
-   source venv-tpe/bin/activate
+---
 
-3. Instalar las dependencias:
-   bash
-   pip install -r requirements.txt
-   python -m ipykernel install --user --name=venv-tpe --display-name "Python (venv-tpe)"
+## Ejecución en VS Code
 
-4. Abrir el proyecto en VS Code y seleccionar el kernel de Python del entorno  venv-tpe.
+1. Abre el proyecto en VS Code (`code .`). Asegúrate de tener instalada la extensión oficial **Jupyter** (`ms-toolsai.jupyter`).
+2. Abre [`entrega-tpe.ipynb`](entrega-tpe.ipynb).
+3. En la esquina superior derecha, haz clic en **"Select Kernel"** y selecciona:
+   - **Python Environments...** $\rightarrow$ `venv-tpe` (o **Jupyter Kernel...** $\rightarrow$ `Python (venv-tpe)`).
+4. Ejecuta las celdas o pulsa **"Run All"**.
 
+> **¿No aparece el kernel en la lista?**
+> - Haz clic en **Select Kernel** $\rightarrow$ **Select Another Kernel...** $\rightarrow$ **Python Environments...** $\rightarrow$ **Enter interpreter path...** e introduce la ruta del entorno:
+>   - **Linux / macOS:** `./venv-tpe/bin/python`
+>   - **Windows:** `.\venv-tpe\Scripts\python.exe`
+> - O recarga la ventana de VS Code: `Ctrl + Shift + P` (o `Cmd + Shift + P`) $\rightarrow$ `Developer: Reload Window`.
