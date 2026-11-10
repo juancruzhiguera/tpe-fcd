@@ -2,6 +2,5 @@
 
 ## Documento de trabajo colaborativo
 El desarrollo y redacción del informe se realiza de manera colaborativa en Google Docs:
-* [Acceso al documento en Google Docs] https://docs.google.com/document/d/1bH1N9iWkM0F0htrinE2KlABVaTezfkl9whlhOOnNp8A/edit?hl=es&tab=t.0
+* [Acceso al documento en Google Docs] https://docs.google.com/document/d/1jb9RKdStd9skJ0yjTw86rgQNKDwscYoHb41n3xLA4Rc/edit?usp=sharing
     
-*Nota: La versión final en formato PDF será exportada y depositada en este directorio para la entrega formal del TPE.*
